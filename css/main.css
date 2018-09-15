@@ -22,6 +22,10 @@ html {
   background-size: cover;
 }
 
+html body {
+  height: 100%;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -274,4 +278,17 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+}
+
+#face {
+  /* width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+}
+
+#face img {
+  width: 256px;
+  height: 178px;
 }
