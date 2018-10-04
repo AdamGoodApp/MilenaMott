@@ -53,7 +53,6 @@ var Player = function() {
             _this.methods.loadTrack(0);
           }
           _this.methods.playTrack();
-
           $playerCurrent.toggleClass("player--open");
         }
       });
@@ -137,8 +136,8 @@ var playlists = {
     tracks: [
       {
         track: 1,
-        artist: "Pre order the powerful debut album Adam and Eve",
-        album: "MOTT",
+        artist: "The powerful debut album Adam and Eve",
+        album: "By MOTT",
         song: "",
         file: ""
       }
